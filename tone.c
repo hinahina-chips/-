@@ -18,7 +18,7 @@ int main(void){
 
     for(i=0;i<SIZE;i++)//トーンカーブによる変換、y=5x
         for(j = 0; j < SIZE; j++){
-            img2[i][j] = 5 * img[i][j];
+            img2[i][j] = 10 * img[i][j];
         }
 
  fp = fopen("poppo.raw","wb");
